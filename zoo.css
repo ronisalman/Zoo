@@ -1,2 +1,24 @@
 /* Created by Roni Salman */
 
+body{
+	background-color: #a36718;
+	margin: 0px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+#navbar{
+	background-color: white; 
+	padding: 15px;
+}
+
+
+a{
+	margin: 0px 15px;
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#contact{
+	float: right;
+}
