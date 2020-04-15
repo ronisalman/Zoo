@@ -19,6 +19,13 @@ a{
 	text-decoration: none;
 }
 
-#contact{
+#contact,#menu{
 	float: right;
+}
+
+@media (max-width: 600px){
+
+	#menu{
+		background-color: blue;
+	}
 }
