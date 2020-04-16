@@ -9,6 +9,7 @@ body{
 #navbar{
 	background-color: white; 
 	padding: 15px;
+	text-align: center;
 }
 
 
@@ -16,18 +17,43 @@ a{
 	margin: 0px 15px;
 	color: black;
 	font-weight: bold;
+	font-size: 20px;
 	text-decoration: none;
+	float: left;
+}
+
+h1{
+	display: inline;
+	font-size: 20px;
 }
 
 #contact,#menu{
 	float: right;
 }
 
+.layer{
+	display: none;
+	width: 25px;
+	height: 5px;
+	background-color: black;
+}
+
+#middle{
+	display: none;
+	width: 25px;
+	height: 5px;
+	background-color: black;
+	margin: 2px 0px;
+}
+
 @media only screen 
 and (max-width: 600px){
 
+	.layer,#middle{
+		display: block;
+	}
 
-	#menu{
-		background-color: blue;
+	.navLink{
+		display: none;
 	}
 }
