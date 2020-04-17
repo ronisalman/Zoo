@@ -31,25 +31,34 @@ h1{
 	float: right;
 }
 
+#menu{
+	border: none;
+	background: none;
+	outline: none;
+}
+
 .layer{
 	display: none;
+	margin: 2px 0px;
 	width: 25px;
 	height: 5px;
 	background-color: black;
 }
 
-#middle{
-	display: none;
-	width: 25px;
-	height: 5px;
-	background-color: black;
-	margin: 2px 0px;
+.menuClicked{
+	transition: transform 1s;
+	transform: rotate(90deg);
+}
+
+.menuUnclicked{
+	transition: transform 1s;
+	transform: rotate(0deg);
 }
 
 @media only screen 
 and (max-width: 600px){
 
-	.layer,#middle{
+	.layer{
 		display: block;
 	}
 
