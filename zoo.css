@@ -55,6 +55,15 @@ h1{
 	transform: rotate(0deg);
 }
 
+.dropdown{
+	display: none;
+}
+
+.dropdownShown{
+	display: block;
+	transition: height 1000ms ease-in;
+}
+
 @media only screen 
 and (max-width: 600px){
 
@@ -64,5 +73,16 @@ and (max-width: 600px){
 
 	.navLink{
 		display: none;
+	}
+
+	.dropdown{
+		height: 100px;
+		width: 100%;
+		background-color: white;
+	}
+
+	.dropdownNavLink{
+		clear: both;
+		float: right;
 	}
 }

@@ -1,11 +1,12 @@
 // Created by Roni Salman
 
+let active=false;
+
 function init(){
 	menuClick();
 }
 
 function menuClick(){
-	let active=false;
 	const menu=document.querySelector("#menu");
 	const layer=document.querySelectorAll(".layer");
 	menu.addEventListener("click",function(){
@@ -22,8 +23,18 @@ function menuClick(){
 			}
 			active=false;
 		}
-
+		dropdown();
 	});	
+}
+
+function dropdown(){
+	const dropdown=document.querySelector(".dropdown");
+	if(active===true){
+		dropdown.classList.add("dropdownShown");
+	}
+	else{
+		dropdown.classList.remove("dropdownShown");
+	}
 }
 
 init();
