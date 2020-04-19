@@ -61,7 +61,6 @@ h1{
 
 .dropdownShown{
 	display: block;
-	transition: height 1000ms ease-in;
 }
 
 @media only screen 
