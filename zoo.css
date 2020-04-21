@@ -1,6 +1,7 @@
 /* Created by Roni Salman */
 
-body{
+html,body{
+	height: 100vh;
 	background-color: #a36718;
 	margin: 0px;
 	font-family: 'Varela Round', sans-serif;
@@ -61,6 +62,20 @@ h1{
 
 .dropdownShown{
 	display: block;
+}
+
+#homeSection{
+	margin: 0 25%;
+	width: 50%;
+	height: 100vh;
+}
+
+#homeIntro{
+	
+}
+
+#homeImage{
+	width: 100%;
 }
 
 @media only screen 
