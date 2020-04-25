@@ -83,9 +83,26 @@ h1{
 	width: 100%;
 }
 
-#pictureSection{
+.pictureSection{
 	background-color: #CEB67E;
 	height: 100vh;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.pictures{
+	height: 50%;
+	width: 30%;
+	margin: 15px 15px;
+}
+
+.pictures img{
+	max-height: 100%;
+	max-width: 100%;
 }
 
 #mapSection{
