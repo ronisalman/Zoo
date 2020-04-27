@@ -83,7 +83,7 @@ h1{
 	width: 100%;
 }
 
-.pictureSection{
+#pictureSection{
 	background-color: #CEB67E;
 	height: 100vh;
 
@@ -105,7 +105,7 @@ h1{
 	width: 100%;
 }
 
-.mapSection{
+#mapSection{
 	background-color: #a36718;
 	height: 100vh;
 
