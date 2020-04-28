@@ -138,7 +138,7 @@ and (max-width: 600px){
 	}
 
 	.dropdown{
-		height: 100px;
+		height: 150px;
 		width: 100%;
 		background-color: white;
 	}
@@ -147,4 +147,9 @@ and (max-width: 600px){
 		clear: both;
 		float: right;
 	}
+
+	#dropdownHome{
+		margin-top: 35px;
+	}
+
 }
