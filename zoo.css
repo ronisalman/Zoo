@@ -126,7 +126,9 @@ h1{
 	width: 100%;
 }
 
-
+#contactPage{
+	float: right;
+}
 
 @media only screen 
 and (max-width: 600px){
