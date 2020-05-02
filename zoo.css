@@ -130,6 +130,19 @@ h1{
 	float: right;
 }
 
+.contactInfo{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width: 60%;
+	margin-left: -30%;
+	text-align: center;
+}
+
+.contactText{
+	color: white;
+}
+
 @media only screen 
 and (max-width: 600px){
 
